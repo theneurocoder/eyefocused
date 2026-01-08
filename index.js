@@ -784,12 +784,9 @@ const linksAndKofiButton = Array.from(links).concat(kofiButton);
 linksAndKofiButton.forEach((linkOrKofiButton) => {
   linkOrKofiButton.addEventListener("mouseover", hoverEffect);
   linkOrKofiButton.addEventListener("mouseout", unhoverEffect);
+  linkOrKofiButton.addEventListener("click", unhoverEffect);
   linkOrKofiButton.addEventListener("touchstart", hoverEffect);
-  linkOrKofiButton.addEventListener("touchend", () => {
-    setTimeout(function () {
-      unhoverEffect();
-    }, 400);
-  });
+  linkOrKofiButton.addEventListener("touchend", unhoverEffect);
 
   function hoverEffect() {
     linkOrKofiButton.classList.add("hovered");
