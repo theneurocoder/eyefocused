@@ -620,7 +620,6 @@ button {
 /* End Of Pages Styling */
 
 /* MEDIA QUERIES */
-
 @media screen and (min-width: 280px) {
   .kofi-image {
     display: inline-block;
