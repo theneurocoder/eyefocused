@@ -617,17 +617,6 @@ button {
   line-height: 1.25;
   padding-bottom: 250px;
 }
-
-.self-portrait {
-  width: 80%;
-  position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  margin: 20px 0 min(7%, 20px) 0;
-  fill: var(--fourth-color);
-}
 /* End Of Pages Styling */
 
 /* MEDIA QUERIES */
@@ -666,17 +655,6 @@ button {
 
   .custom-select {
     width: 185px;
-  }
-
-  .self-portrait {
-    width: 200px;
-    float: right;
-    shape-outside: circle(50%);
-    margin: 7px 0 20px 20px;
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-    left: 0;
   }
 }
 
